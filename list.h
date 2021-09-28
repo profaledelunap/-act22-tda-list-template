@@ -67,15 +67,12 @@ public:
 
 	int length() const;
 	bool empty() const;
-
-	void create(T);
 	void create(T, int);
 	int read(T) const;
 	T get(int) const;
 	void update(T, int);
 	bool del(T);
-	T clear(int);
-	void clear();
+	void clear(int);
 
 	std::string string() const;
 };
@@ -98,19 +95,10 @@ List<T>::~List()
 }
 
 // =================================================================
-// Adds an element at the start of the linked list. The element that
-// was at the begining is shifted to the right.
-//
-// Worst case complexity: O()
-// =================================================================
-template <class T>
-void List<T>::create(T val)
-{
-}
-
-// =================================================================
 // Adds an element in index (0 <= index <= size). The element that
-// was in that position is shifted to the right.
+// was in that position is shifted to the right. If no position was
+// given, adds an element at the start of the linked list. The
+// element that was at the begining is shifted to the right.
 //
 // Worst case complexity: O()
 // =================================================================
@@ -154,24 +142,13 @@ void List<T>::update(T val, int index)
 }
 
 // =================================================================
-// Deletes the element found in index (0 <= index <size).
-//
-// @returns the element that was at the index.
-//
-// Worst case complexity: O()
-// =================================================================
-template <class T>
-T List<T>::clear(int index)
-{
-}
-
-// =================================================================
-// Removes all the items from the list.
+// Deletes the element found in index (0 <= index <size). If no index
+// was passed, removes all the items from the list.
 //
 // Worst case complexity: O()
 // =================================================================
 template <class T>
-void List<T>::clear()
+void List<T>::clear(int index)
 {
 }
 

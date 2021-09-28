@@ -1,6 +1,6 @@
 ![Tec de Monterrey](images/logotecmty.png)
 
-# Act 2.1 - Verificación de las funcionalidades de una estructura de datos lineal
+# Act 2.2 - Verificación de las funcionalidades de una estructura de datos lineal
 
 ## <span style="color: rgb(26, 99, 169);">¿Qué tengo que hacer?</span>
 

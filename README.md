@@ -18,20 +18,22 @@ Diseña e implementa, de forma <span style="text-decoration-line: underline;">fo
 
 Dependiendo del ADT de estructura de datos lineal deberán implementar las operaciones CRUD (Create, Read (buscar), Update, Delete) elementos en la estructura de datos. Revisa el documento TC1031_List.pdf para conocer la especificación lógica de la clase. Algunas operaciones no aplican para ciertas estructura de datos. La implementación del ADT debe validar la entrada de acuerdo a la especificación lógica.
 
-<br>Todas las funcionalidades deberán de estar correctamente alineadas y documentadas.&nbsp; Además, deberas incluir el orden de complejidad en el peor de los casos de cada algoritmo implementado. Recuerda que todas las funcionalidades deberán pasar exitosamente todas las pruebas. Como parte de la documentación deberá incluirse la complejidad de cada una de ellas.
+Además, deberas documentar la calidad del ADT implementado. El documento deberá incluir:
+
+- Introducción
+- Casos de prueba utilizadas y razones por las cuales esas pruebas se eligieron
+- Resultados de los casos de prueba aplicados al ADT
+- Sección de la calidad de software del ADT:
+  - Indentación (convención de llaves, tabs, espacios, etc)
+  - Documentación (especificación lógica)
+  - Reusabilidad (modularidad de funciones, generalización)
+  - Mantenibilidad (facilidad de lectura y entendimiento, estándar de codificación)
+  - Conclusión
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
-- Documento que incluya el resultado de la evaluación del ADT. El documento deberá incluir:
-  - Introducción
-  - Casos de prueba utilizadas y razones por las cuales esas pruebas se eligieron
-  - Resultados de los casos de prueba aplicados al ADT
-  - Sección de la calidad de software del ADT:
-    - Indentación (convención de llaves, tabs, espacios, etc)
-    - Documentación (especificación lógica)
-    - Reusabilidad (modularidad de funciones, generalización)
-    - Mantenibilidad (facilidad de lectura y entendimiento, estándar de codificación)
-    - Conclusión
+- Dentro de la implemetación del ADT se consideran las posibles excepciones de acuerdo a las precondiciones de cada función.
+- Documento que incluya el resultado de la evaluación del ADT con los puntos anteriormente descritos.
 
 ## <span style="color: rgb(26, 99, 169);">**¿Dónde la entrego?**</span>
 
